@@ -1,6 +1,10 @@
-# 師大問道 v0.4｜素材來源與授權
+# 師大問道｜素材來源與授權
 
 查核日期：2026-09-11。素材隨站本機載入，遊玩時不向來源平台下載。以下記錄使用來源與衍生處理，不替整個專案指定新的授權。
+
+## v0.5 教學內容與參考書
+
+W3／W4的18人合成資料、Syntax練習、模板、人物對話與題項演練由本案創作。操作概念參考《SPSS Statistics, Version 22: A Practical Guide》第2／3章及使用者提供的離線附檔；AI查證方法參考Jeremy C. Morgan《Coding with AI: Examples in Python》（Manning，2025）第8／9章。關卡另列實讀章節定位，沒有將原書PDF、原教材資料或附碼納入網站。參考不表示取得原書重製授權；所有SPSS起始語法尚待目標版本實跑驗證。
 
 ## v0.4 現用角色：KayKit Adventurers 2.0 FREE，CC0
 
