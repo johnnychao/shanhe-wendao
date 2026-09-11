@@ -1,6 +1,22 @@
-# 山河問道 v0.3｜素材來源與授權
+# 師大問道 v0.4｜素材來源與授權
 
 查核日期：2026-09-11。素材隨站本機載入，遊玩時不向來源平台下載。以下記錄使用來源與衍生處理，不替整個專案指定新的授權。
+
+## v0.4 現用角色：KayKit Adventurers 2.0 FREE，CC0
+
+[Kay Lousberg 官方免費素材頁](https://kaylousberg.itch.io/kaykit-adventurers)。官方下載包內 License.txt 明列 CC0，無需付款。角色、骨架與官方動畫来自同一個 2.0 FREE 包；未混用 1.0。沈行舟採 Rogue、阿澄採 Ranger、小衡採 Mage、知秋採 Knight，移除武器、精簡為 Idle／Walk／Interact，統一站姿身高 1.75 公尺。四個模型合計 1,900,364 bytes，全部內嵌。
+
+- 成品：`assets/models/characters/v4/`；完整來源與授權同目錄 `ATTRIBUTION.md`、`LICENSE.txt`。
+- 肖像：`assets/art/cast-v4/` 四張 PNG，均由上述實際模型渲染；不是 AI 概念畫。
+- 原始 ZIP、SHA-256、動畫與 16 張實際 WebGL 檢查留本機 `output/stylized-cast/`。相關製作腳本 `scripts/prepare-stylized-cast.py`、`.mjs`。
+
+## v0.4 校園地理：OpenStreetMap contributors，ODbL 1.0
+
+[OpenStreetMap 官方授權與署名](https://www.openstreetmap.org/copyright)。取公開建物範圍與道路節點，自 origin (25.026,121.5275) 投影並縮尺 0.5。衍生地理資料完整放在 `assets/data/campus-layout.json`，保留 ODbL 1.0 及來源；高度、門窗、屋頂、立面、植栽與商店均為本案遊戲設計估製。此資料授權適用地理資料庫，不把程式或角色素材改稱 ODbL。
+
+[臺師大官方校圖](https://www.ga.ntnu.edu.tw/ntnu_map/)及[系所位置](https://www.he.ntnu.edu.tw/index.php/about/)供名稱與方位核對，未複製其地圖影像。[Google Map Tiles 政策](https://developers.google.com/maps/documentation/tile/policies)限制網格抽取與衍生地理資料，本案沒有使用 Google 3D Tiles、API 金鑰、Google 地圖影像或從 Google 網格描繪建築。未產生 Maps API 帳單。
+
+現用建築及環境以程式自建卡通幾何；下列 v0.2／v0.3 素材保留作歷史資產，現行校園場景不載入它們。
 
 ## 自然環境：Poly Haven，CC0
 

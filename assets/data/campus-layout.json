@@ -1,0 +1,36 @@
+{
+  "name":"臺師大和平校區教學遊戲地理配置",
+  "version":"0.4.0",
+  "checkedAt":"2026-09-11",
+  "origin":{"lat":25.026,"lon":121.5275},
+  "scale":0.5,
+  "projection":{"x":"(lon - 121.5275) * 50400","z":"-(lat - 25.026) * 55660"},
+  "notice":"OSM 建物外接矩形縮尺；高度、門窗、立面、植栽與街區店面為遊戲估製，非精準重建或導航資料。",
+  "attribution":"© OpenStreetMap contributors — ODbL 1.0",
+  "license":"https://www.openstreetmap.org/copyright",
+  "sources":["https://www.ga.ntnu.edu.tw/ntnu_map/","https://www.he.ntnu.edu.tw/index.php/about/","https://api.openstreetmap.org/api/0.6/map?bbox=121.5245,25.0245,121.5305,25.0282"],
+  "buildings":[
+    {"id":"admin","name":"行政大樓","osmId":1285079717,"x":1.77,"z":1.95,"width":54.65,"depth":15.71,"height":8,"style":"heritage"},
+    {"id":"normal","name":"普通大樓","osmId":202262793,"x":-1.77,"z":19.27,"width":48.11,"depth":10.2,"height":6,"style":"heritage"},
+    {"id":"cheng","name":"誠大樓 · 健促系","osmId":206087144,"x":16.75,"z":60.07,"width":37.77,"depth":9.86,"height":15,"style":"teaching"},
+    {"id":"zheng","name":"正大樓","osmId":206087143,"x":17.14,"z":46.03,"width":39.71,"depth":9.87,"height":8,"style":"teaching"},
+    {"id":"qin","name":"勤大樓","osmId":202262785,"x":-23.32,"z":57.29,"width":43.38,"depth":10.71,"height":15,"style":"teaching"},
+    {"id":"pu","name":"樸大樓","osmId":202262786,"x":-23.24,"z":43.02,"width":42.09,"depth":10.05,"height":8,"style":"teaching"},
+    {"id":"hall","name":"禮堂","osmId":202262796,"x":-36.4,"z":-16.71,"width":16.3,"depth":13.12,"height":7,"style":"heritage"},
+    {"id":"wenhui","name":"文薈廳","osmId":202262787,"x":29.06,"z":17.24,"width":9.7,"depth":17.04,"height":4,"style":"heritage"},
+    {"id":"gym","name":"體育館","osmId":602798035,"x":-47.2,"z":7.51,"width":34.14,"depth":24.99,"height":9,"style":"sport"},
+    {"id":"pool","name":"游泳館","osmId":202251421,"x":-61.79,"z":47.35,"width":31.45,"depth":23.29,"height":6,"style":"sport"},
+    {"id":"music","name":"音樂系館","osmId":602798032,"x":-54.98,"z":-20.51,"width":30.71,"depth":17.8,"height":9,"style":"teaching"},
+    {"id":"library","name":"圖書館","osmId":602111056,"x":46.57,"z":-56.53,"width":23.99,"depth":21.52,"height":12,"style":"library"},
+    {"id":"union","name":"綜合大樓","osmId":602157714,"x":89.78,"z":-49.48,"width":30.27,"depth":16.21,"height":12,"style":"teaching"},
+    {"id":"boai","name":"博愛大樓","osmId":602127552,"x":51.62,"z":-82.15,"width":32.94,"depth":19.25,"height":15,"style":"teaching"},
+    {"id":"education","name":"教育學院大樓","osmId":602127543,"x":97.68,"z":-97.05,"width":33.89,"depth":17.29,"height":12,"style":"teaching"}
+  ],
+  "roads":[
+    {"name":"和平東路一段","width":13,"points":[[-145,-51],[-76,-44.66],[-42.25,-41.47],[0,-37.77],[64,-32.75],[160,-24]]},
+    {"name":"師大路","width":8,"points":[[50.75,-32.9],[50.31,-24.21],[47.38,4.71],[43.95,38.52],[54.55,74.92],[59,130]]},
+    {"name":"麗水街","width":6,"points":[[24.58,-39.71],[26.77,-64.7],[30.41,-87.43],[36.15,-120.81],[37,-130]]},
+    {"name":"日光大道","width":4,"points":[[-66.24,20.42],[-47.08,22.07],[-28.79,23.65],[-0.88,26.06],[23.55,28.18]]}
+  ],
+  "field":{"id":"field","name":"運動場","osmId":202262798,"x":-98.71,"z":10.99,"width":40.14,"depth":76.55}
+}
