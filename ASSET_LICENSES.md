@@ -1,4 +1,4 @@
-# 山河問道 v0.2｜素材來源與授權
+# 山河問道 v0.3｜素材來源與授權
 
 查核日期：2026-09-11。素材隨站本機載入，遊玩時不向來源平台下載。以下記錄使用來源與衍生處理，不替整個專案指定新的授權。
 
@@ -25,7 +25,20 @@
 - [官方 CC0 系統素材包](https://files.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip)及[逐項授權清單](https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html)。
 - 逐檔來源與規格：`assets/models/characters/ATTRIBUTION.md`；本機授權：`assets/licenses/MakeHuman-LICENSE.md`；製作腳本：`scripts/build-characters.py`。
 
-沒有使用《逆水寒》的模型、貼圖或角色。兩款 3D 旅人是本案原型，不等同四張人物誌肖像。
+以上兩個模型為 v0.2 保留版本。沒有使用《逆水寒》的模型、貼圖或角色；3D 旅人與 AI 人物肖像分開製作。
+
+## v0.3 四位人物與社群衣髮
+
+`assets/models/characters/v3/` 包含沈行舟、阿澄、小衡、知秋四款 GLB；場內及人物誌共用同一檔案。人體仍採上述 MakeHuman CC0 核心資產，衣髮採逐檔查核的以下來源。
+
+| 素材 | 作者與授權 | 本案修改 |
+|---|---|---|
+| [F_Kimono／mindfront_kimono](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | Mindfront，CC0 1.0；官方與內嵌一致 | 體型適配、衣物蒙皮、袖形、衣領、腰封、配色；保留原布料拓樸與 UV 皺褶 |
+| [Long01／o4saken_long01](https://static.makehumancommunity.org/assets/assetpacks/hair01.html) | 04saken；官方包另署 punkduck；按內嵌 **CC BY 4.0** 使用 | 髮束適配、長短與位置、髮色、透明度及反光、綁定頭骨 |
+
+Long01 的包頁雖標 CC0，下載檔內為 CC BY 4.0；本案採檔內條款，保留作者、[授權連結](https://creativecommons.org/licenses/by/4.0/)與修改紀錄，不暗示原作者替遊戲背書。RehmanPolanski bun 的授權矛盾未釐清，未採用；Cortu Johnstone CC0 髮片因造型不適合，只留本機候選。
+
+詳細署名及原包連結見 `assets/models/characters/v3/ATTRIBUTION.md`。製作腳本 `scripts/build-characters-v3.py`；原包、失敗候選、下載雜湊及圖像驗證留本機 `output/character-research/` 與 `output/character-v3/`。原衣袍名為 Kimono，修改後用作虛構江湖旅装，不宣稱原素材為漢服或歷史服制復原。Idle／Walk 為本案骨架動畫，尚無臉部表情、嘴型或布料即時物理。
 
 ## 環境音與字型
 
