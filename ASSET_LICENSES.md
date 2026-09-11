@@ -10,6 +10,8 @@
 - 肖像：`assets/art/cast-v4/` 四張 PNG，均由上述實際模型渲染；不是 AI 概念畫。
 - 原始 ZIP、SHA-256、動畫與 16 張實際 WebGL 檢查留本機 `output/stylized-cast/`。相關製作腳本 `scripts/prepare-stylized-cast.py`、`.mjs`。
 
+v0.4.2 的24位校園居民共用上述四個模型、骨架及貼圖，執行時調整服色與比例；沒有新增下載素材、付費API或商業遊戲角色。居民姓名、日常對話、漫遊手帳與四個彩蛋為本案虛構內容，不代表真實師生及校園活動。
+
 ## v0.4 校園地理：OpenStreetMap contributors，ODbL 1.0
 
 [OpenStreetMap 官方授權與署名](https://www.openstreetmap.org/copyright)。取公開建物範圍與道路節點，自 origin (25.026,121.5275) 投影並縮尺 0.5。衍生地理資料完整放在 `assets/data/campus-layout.json`，保留 ODbL 1.0 及來源；高度、門窗、屋頂、立面、植栽與商店均為本案遊戲設計估製。此資料授權適用地理資料庫，不把程式或角色素材改稱 ODbL。
