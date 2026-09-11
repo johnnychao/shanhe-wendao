@@ -1,4 +1,56 @@
 <!doctype html>
-<html lang="zh-Hant"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="referrer" content="no-referrer"/><meta name="theme-color" content="#285d49"/><meta name="description" content="師大問道：在臺師大和平校園的卡通探索中，與夥伴對話、練習統計與研究思考。保留自己的首答，也看見每次進步。"/><link rel="icon" href="data:,"/><title>師大問道 · 研究探險隊</title>  <script type="module" crossorigin src="./assets/index-CvbscKZ1.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-CeWW9Pwr.css">
-</head><body><div id="root"></div></body></html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="師大問道課程入口：請由 Moodle 進入課程遊戲，並下載保留舊站的本機探險檔。">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>師大問道｜Moodle 課程入口</title>
+  <link rel="stylesheet" href="./gateway.css">
+  <script src="./gateway.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#courses">跳到課程入口</a>
+  <div class="page">
+    <header class="masthead">
+      <a class="wordmark" href="#main" aria-label="師大問道首頁"><span class="seal" aria-hidden="true">問</span><span>師大問道<small>研究探險隊</small></span></a>
+      <span class="term">115 學年度・第 1 學期</span>
+    </header>
+    <main id="main">
+      <section class="intro" aria-labelledby="title">
+        <p class="eyebrow">從課堂出發，把好奇帶進研究。</p>
+        <h1 id="title">下一段旅程，<br>從 <span>Moodle</span> 啟程。</h1>
+        <p class="lead">課程版正在更新，遊戲活動暫停開放。完成後，請由你修習的 Moodle 課程進入；每門課分別檢查修課資格。兩門都有修課，才可分別進入兩門。</p>
+        <div class="campus-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </section>
+      <nav id="courses" class="courses" aria-label="Moodle 課程入口">
+        <a class="course ug" href="https://moodle3.ntnu.edu.tw/course/view.php?id=59468">
+          <div class="course-top"><span class="course-code">HEU0141</span><span class="course-level">大學部</span></div>
+          <h2>AI 輔助資料分析<br>與統計應用</h2>
+          <p>從陌生資料，到有據可說。</p>
+          <span class="course-action">進入 Moodle 課程 <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="course gr" href="https://moodle3.ntnu.edu.tw/course/view.php?id=59193">
+          <div class="course-top"><span class="course-code">HEC0034</span><span class="course-level">研究所</span></div>
+          <h2>行為科學測量評量<br>與 AI 應用</h2>
+          <p>為每個構念，找到清楚的邊界。</p>
+          <span class="course-action">進入 Moodle 課程 <span aria-hidden="true">↗</span></span>
+        </a>
+      </nav>
+      <section class="backup" aria-labelledby="backup-title">
+        <div class="backup-heading"><span class="section-number" aria-hidden="true">備</span><div><p class="eyebrow">曾在舊站作答？</p><h2 id="backup-title">把自己的探險檔一起帶走</h2></div></div>
+        <p>請用<strong>之前作答的同一台裝置、同一個瀏覽器</strong>開啟此頁。點擊下方按鈕後，才會讀取這個網站曾保存在瀏覽器的探險檔；不會上傳、修改或刪除紀錄。</p>
+        <ol class="steps"><li><span>01</span>下載自己的完整 JSON 備份</li><li><span>02</span>從 Moodle 開啟課程遊戲</li><li><span>03</span>在遊戲的「備份與恢復」匯入 JSON</li></ol>
+        <p class="shared-device">若使用共用電腦，只下載自己的探險檔。這份備份包含草稿、歷次提交及附件，請妥善保管。</p>
+        <button id="read-backups" type="button" aria-describedby="backup-status">讀取此瀏覽器的舊探險檔 <span aria-hidden="true">↓</span></button>
+        <p id="backup-status" class="status" role="status" aria-live="polite" aria-atomic="true">尚未讀取本機紀錄。</p>
+        <ul id="backup-list" class="backup-list" aria-label="本機探險檔"></ul>
+        <noscript><p class="error">瀏覽器未啟用 JavaScript，無法讀取舊探險檔。你仍可使用上方 Moodle 課程連結。</p></noscript>
+      </section>
+      <aside class="reminder" aria-label="保存與繳交提醒"><span aria-hidden="true">↳</span><p><strong>登入 Moodle，不等於自動繳交。</strong><br>遊戲作答仍保存在本機，請定期下載備份，並依課程作業說明繳交成果。</p></aside>
+    </main>
+    <footer><p>國立臺灣師範大學<br>健康促進與衛生教育學系・課程教學遊戲</p><p>本站提供課程入口與舊檔備份。<br>沒有學生名單，也不顯示成績。</p></footer>
+  </div>
+</body>
+</html>
