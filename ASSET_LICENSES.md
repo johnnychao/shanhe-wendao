@@ -79,6 +79,8 @@ Long01 的包頁雖標 CC0，下載檔內為 CC BY 4.0；本案採檔內條款�
 
 ## 教材與程式依賴
 
+v0.6兩課W5–8的20人步行、候選題品質／計分與12筆評分資料、語法、模板及故事均由本案原創，完全合成。只參考SPSS Practical Guide 22第4／5／6／16／18章與IBM22官方語法／算法，以及Coding with AI第8／9章的查證方法；原書、原附檔、登入備忘及教師實跑檔不散布。新8份starter已在本機SPSS22引擎核對；GR W7故意冗餘案例保留已說明警告，不稱所有案例均無警告。
+
 `src/dataset.ts` 為 seed=20260911 的合成資料，24 個案、7 變項，不是真實學生或研究資料。參考 Syntax 尚未在 SPSS22 實跑。原課綱與教科書僅受控本機參考，不放公開版本。
 
 依賴以 `package-lock.json` 為準；React、React DOM、Three.js、fflate 與建置工具各依自身 LICENSE，不以素材 CC0 概括。`THIRD_PARTY_LICENSES.txt` 為彙整檔，公開打包前核對新增依賴及原授權。`node_modules/` 不納入交接包，依鎖檔安裝後可查各套件原 LICENSE。
